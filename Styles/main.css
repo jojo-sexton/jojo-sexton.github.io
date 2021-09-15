@@ -1,1 +1,30 @@
-<link href="your-stylesheet-link-here.css" rel="stylesheet" type="text/css">
+header{
+    Background-color:#fbfaf5;
+    padding: 50px 50px 50px 50px;
+    font-family: Helvetica Neue, sans-serif;
+}
+body{ font-family:Helvetica Neue, san-seriv;}
+
+
+img.avatar {
+    width: 250px;
+    height:auto;
+    border-color: black;
+    border-style:solid;
+    border-width: 1px;
+    border-radius:50%;
+    position: relative}
+ul{
+    margin: 0; 
+    padding: 0;
+    list-style-type: none;
+}
+
+li {display: inline-block;
+Padding-right:30px;
+Margin: 0;}
+
+.My-Journey{)
+}
+
+.timeline{}
