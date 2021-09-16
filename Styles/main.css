@@ -1,28 +1,23 @@
 header{
     Background-color:#fbfaf5;
-    padding: 50px 50px 50px 50px;
+    padding: 30px 50px 50px 30px;
     font-family: Helvetica Neue, sans-serif;
 }
 body{ font-family:Helvetica Neue, san-seriv;}
 
 
-img.avatar {
-    width: 250px;
-    height:auto;
-    border-color: black;
-    border-style:solid;
-    border-width: 1px;
-    border-radius:50%;
-    position: relative}
+
 ul{
     margin: 0; 
-    padding: 0;
+    padding-left: 0px;
+    padding-bottom: 30px;
     list-style-type: none;
 }
 
-li {display: inline-block;
-Padding-right:30px;
-Margin: 0;}
+Li{display: inline-block;
+padding-left:0px;
+padding-right: 30px;}
+
 
 .My-Journey{)
 }
