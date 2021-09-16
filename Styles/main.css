@@ -1,20 +1,22 @@
 header{
     Background-color:#fbfaf5;
     padding: 20px 50px 100px 50px;
-    font-family: Helvetica Neue, sans-serif;}
+    font-family: Helvetica Neue, sans-serif;
+color:darkslategray;
+display:block;}
 
-body{ font-family:Helvetica Neue, sans-serif;}
 
-nav{display: flex;align-items: center; justify-content: space-around;font-weight:500; }
+body{ font-family:Helvetica Neue, sans-serif;color:darkslategray;}
+
+nav{display:flex; justify-content: space-around;font-weight:500; }
 
 h1{font-size: 35px; font-weight:500}
 h2{font-size: 25px; font-weight:500}
 
-
 p{font-family:Helvetica; line-height:2rem;}
 
 p.handshake{margin-top:-20px;}
-h1.kiaora {margin-top:50px;}
+h1.kiaora {margin-top:20px;}
 ul.navbarheader{ margin: 0; padding-left: 0px; padding-bottom: 30px; list-style-type: none;}
 ul.navbarheader Li{display: inline-block; padding-left:0px; padding-right: 30px;}
 
@@ -24,10 +26,43 @@ a {position: relative; text-decoration:none; color:black;}
 a:after{content:""; position: absolute; background-color:#dbc035; height:3px;width:0;left:0;bottom:-10px; transition:0.1s }
 a:hover:after {width:100%;}
 
+
+/* RESPONSIVE RULES */
+
+/* phone */
+@media screen and (max-width:556px) {
+Nav {display:none;}
+
+/* phone -dropdown menu*/
+.dropbutton{
+    color: black; padding:16px; border:none;Background-color:#fbfaf5; font-size:20px}
+    .dropdown{position:relative; display:inline-block;}
+    .dropdown-content {display:none; position:absolute; min-width:160px; box-shadow: 0px 8px 16px 0px; z-index:1;background-color:#dbc035;}
+    .dropdown-content a {color:white; padding:10px; text-decoration: none; display:inline-block;}
+    .dropdown-content a:hover {background-color:pink;}
+    .dropdown:hover .dropdown-content {display:block;}
+    .dropdown-content ul {list-style-type:none;}
+
+}
+
+/* screen */
+@media screen and (min-width:556px) {
+    .dropdown div{ display:none;}
+    .dropbutton {display:none}
+
+
+}
+
+
+
+/* BODY */
 section.box1and2 {display:flex;width:100%;margin:2px;border-top:1px solid lightgray;padding-top:20px;}
 
-div.box2 {border-left:1px solid lightgray;padding-left:20px;}
+div.box2 {border-left:1px solid lightgray;padding:20px 40px 40px 40px;}
 
 section.box3and4 {display:flex;width:100%;margin:2px;border-top:1px solid lightgray;padding-top:20px; }
 
-div.box4 {border-left:1px solid lightgray;padding-left:20px}
+div.box4 {border-left:1px solid lightgray;padding:20px 40px 40px 40px}
+
+footer {background-color:darkslategray; color:white; text-align: center; padding:10px 20px;font-size:10px;}
+
