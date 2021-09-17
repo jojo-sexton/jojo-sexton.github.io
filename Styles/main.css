@@ -55,14 +55,20 @@ Nav {display:none;}
 
 
 
-/* BODY */
+/* BODY INDEX*/
 section.box1and2 {display:flex;width:100%;margin:2px;border-top:1px solid lightgray;padding-top:20px;}
-
 div.box2 {border-left:1px solid lightgray;padding:20px 40px 40px 40px;}
 
 section.box3and4 {display:flex;width:100%;margin:2px;border-top:1px solid lightgray;padding-top:20px; }
-
 div.box4 {border-left:1px solid lightgray;padding:20px 40px 40px 40px}
 
-footer {background-color:darkslategray; color:white; text-align: center; padding:10px 20px;font-size:10px;}
+section.box5and6 {display:flex;width:100%;margin:2px;border-top:1px solid lightgray;padding-top:20px; }
+div.box6 {border-left:1px solid lightgray;padding:20px 40px 40px 40px}
 
+
+
+/* FEATURES BLOCK VS INLINE page*/
+.features: {display:flex; position:relative; align-content:center;}
+
+/* FOOTER */
+footer {background-color:darkslategray; color:white; text-align: center; padding:10px 20px;font-size:10px;}
