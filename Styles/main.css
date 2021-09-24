@@ -67,7 +67,7 @@ img.Dev {float:left;padding-top:15px;padding-right:20px;}
 img.banksLogo {float:left;padding-top:15px;padding-right:20px;}
 div.blog{border-top:1px solid lightgray;border-bottom:1px solid lightgray;
 padding-top:10px;}
-
+div.myJourney{border=bottom:1px solid lightgray;}
 
 /* FEATURES BLOCK VS INLINE page*/
 .features: {display:flex; position:relative; align-content:center;}
