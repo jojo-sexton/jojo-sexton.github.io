@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML forms</title>
+  </head>
+
+  <body>
+
+    <!-- All about forms -->
+<h1>HTML Forms</h1>
+
+
+<FORM>
+  <!-- Enter your ID, email, password: syntax:
+  <LABEL FOR="this label is made for what ever in the Id"></LABEL>
+  <INPUT TYPE="" ID="" NAME="for group" VALUE="for server to select later on" REQUIRED(NEED TO COMPLETE TO SUBMIT)>
+  -->
+<label for="username">Enter your username: </label>
+<input type="text" id="username" name="username" required>
+
+<br><br>
+
+<label for="email">Enter your email: </label>
+<input type="email" id="email"name="email" required>
+
+<br><br> 
+
+<lable for"password">Enter your password:</lable>
+<input type="password" id="password" name="password" required>
+
+
+
+<!-- RADIO BUTTON (lable after input)
+  <INPUT TYPE="radio" ID="" NAME="group name i.e age, gender" VALUE="for server to select later on">
+  <LABEL  FOR="ID">the label is basically just to tell the user what the button is about and how to select </LABEL>
+-->
+<p>Select your age:</p>
+
+<input type="radio" id="0-25" name="same group age" value="for server to select later on 0-25" required>
+<label for="0-25">Young Wild and Dumb: 0-25</label>
+<br>
+
+<input type="radio" ID="26-50" name="same group age" value="for server to select later on 26-50" required>
+<label for="26-50">Midlife Crisis: 26-50</label>
+<br>
+
+<input type="radio" Id="51+" name="same group age" value="for server to select later on 51+" required>
+<label for="51+">Going down the hill: 51+</label>
+
+<!-- DROPDOWN MENU (select i/o input)
+<LABEL FOR="" > text </LABEL>
+
+<SELECT ID="" NAME=""> 
+  <OPTION VALUE="for server to select later on i.e q1"> text </OPTION>
+  <OPTION VALUE="for server to select later on i.e q2"> text </OPTION>
+  <OPTION VALUE="for server to select later on i.e q3"> text </OPTION>
+</SELECT>
+
+-->
+<br>
+<br>
+<LABEL for="question">Security Questions</LABEL>
+<SELECT ID="question" Name="question" Required>
+  <option value="q1">What colour are your favourite pair of socks?</option>
+  <option value="q2">If you could be a vegetable, what it be?</option>
+  <option value="q3">What is your best ever security question?</option>
+</SELECT>
+<br><br>
+<label for="answer">Security question answer</label>
+<input type="text" ID="answer" Name="answer">
+<br><br>
+<!-- TEXTAREA 
+<LABEL FOR=""> TEXT </LABEL>
+<TEXTAREA ID="" NAME="" COLS="" ROWS="" PLACEHOLDER=""></TEXTAREA>
+-->
+
+<label iD="">Your Bio:</label><br>
+<textarea ID="bio" Name="bio" Cols="30" Rows="10" Placeholder="about you" required></textarea>
+
+<br><br>
+
+<!-- SUBMIT
+<INPUT TYPE="submit" VALUE="the text that users see">
+-->
+<input type="submit" Value="Submit The Form">
+
+</FORM>
+
+</body>
+
+</html>
