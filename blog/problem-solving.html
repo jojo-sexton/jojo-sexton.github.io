@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    <HEAD>
+      <link rel="stylesheet" href="../Styles/main.css">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Problem Solving</title>
+    </HEAD>
+
+    <BODY>
+      <!-- Header -->
+      <Header>
+        <<Nav>
+            <UL class="navbarheader">
+            <li> <a href="../index.html">Home</a></li>
+            <li> <a href="../blog/identity-values.html"> Values</a></li>
+            <li> <a href="../blog/learning-plan.html">Learning Plan</a> </li>
+            <li> <a href="../blog/contact.html">Call Me Maybe?</a></li>
+            </UL>
+          </Nav>
+<!-- drop down menu for phone -->
+<div class="dropdown">
+  <button class="dropbutton">Menu</button>
+
+  <div class="dropdown-content">
+<ul>
+<li> <a href="../index.html">JoJo</a></li>
+<li> <a href="/blog/identity-values.html"> Values</a></li>
+<li class="desktop"> <a href="../blog/learning-plan.html">Learning Plan</a> </li>
+<li class="desktop"> <a href="../blog/contact.html">Call Me Maybe?</a></li>
+</ul>
+  </div>
+</div>
+
+<!-- this is the title of the page -->
+<div>  <h1 align="center" class="kiaora">Technical Blog<br>Problem Solving </h1>
+</div>
+<!-- from here to the top is the default for each web page. remember to change title, title of the page -->
+
+</div>
+  </Header>
+  
+  <div> <img src="../Media/solution.png" alt="problem solving photo" class="center-align">
+    <p align="center" class="handshake">
+        “A problem well stated is a problem half solved.”
+        --John Dewey
+      </p>
+  <div class="blogPage">
+    
+      <h2>This is a story about a time i've got blocked on a simple problem while coding and how did i solve it? </h2>
+      <br>
+      <ul>
+          
+        <li><b>What was the problem?</b></li>
+
+        <p> Well, FizzBuzz challenge is a classic test given in coding interviews. I need to write a function call FizzBuzz. The task is simple: <br>
+             When you pass a number to function, it calls out "Fizz" if the number is divisible by 3, <br>
+             calls out "Buzz" if the number is divisible by 5, <br>
+             and calls out "FizzBuzz" if the number is divisible by both 3 AND 5. 
+             <br>Else, the function returns the number. 
+        </p>
+
+        <p style="color:red">
+        I've completed the code as below. However, the test kept displaying an error: "FizzBuzz(7) should be 7! "" </p>
+
+<div class="function">
+        <p>Function fizzuzz(num) {
+            <br>*for(var i=0;i<=num;i++){
+                <br>if(i%3===0 && i%5===0){console.log("FizzBuzz");}
+                <br>else if(i%3===0) {console.log("Fizz");}
+                <br>else if(i%5===0) {console.log("Buzz");}
+                <br>else{console.log(i);}}*/
+            
+                <br>if(num%3===0 && num%5===0) {console.log("FizzBuzz");}
+                <br>else if(num%3===0) {console.log("Fizz");}
+                <br>else if(num%5===0) {console.log("Buzz");}
+                <br>else {console.log(num);} }
+                <br>fizzBuzz(7);
+           </p>
+            </div>
+   
+            
+   
+    <li><b>What problem solving techniques did I use?</b></li>
+            <p style="color:red">I got stuck on this issue for over 3 hours... simply because i misread the expectation of challenge.</p>
+            <p>I thought that  fizzbuzz(7) should returns a whole array of [1, 2, Fizz, 4, Buzz, 7].</p>
+            <p>I've pseudocode and console.logging and my function seems to work fine. i still didn't get why i didn't pass the test </p>
+            <p>I even thought that there was something wrong with the test function so i went on slack to see if anyone else has the same problem like me. Unfortunately, no one seems to have any propblem with the test. I was too shy to ask for help on Slack because i was so behind compare to my coding mates. </p>
+            <p>Eventually, i kinda used the rubber ducky method to get me unstuck (FYI: I didn't even know what is the rubber ducky method before i did the challenge) I asked myself (a.k.a Mrs. Rubber Ducky): "" what do i need to do so that anytime i call the function fizzBuzz(7), it returns 7 only?" Then i changed the code and woohoo! it passed!  </p>
+
+
+    <li><b>How did you feel throughout the process?</b></li>
+            <p>I feel happy when i got it at the end. Along the journey, i also feel like an idiot for overthinking and not paying attention to the expectation of the outcome in the test. </p>
+
+    <li><b>What did I learn?</b></li>
+            <ul>
+            <li>What i will do differently going forward is that i will pay more attention to the expectation. Asking myself what is the outcome that i want to achieve?  </li>
+            <li>Based on the correct understanding of the expectation, I will use Pseudocode to break down my plan into small steps. </li>  
+            <li>Console.logging and  testing to see if it works</li>
+            <li>If the code doesn't work, i will ask  "rubber duckie" friend. Because rubber duckie is just a duckie, i will need to explain the context of the problem and state very well what is wrong. Hopefully there will be a spark of solution while i am trying to explain the issue to my friend duckie.  </li>
+            <li>Google and youtube to do more research or see how people do this task differently and try that</li>
+            <li>If after all those methods above and i am still stuck with the same issue for more 30 minutes, i will try NOT to chicken out and ask for help from my friends/slack/facilitator. I am a painly shy person so it’s tough for me to ask for help. I hope with practice, I will get used to it. </li>
+            
+            </ul>
+        </ul>
+
+
+    </div>
