@@ -1,5 +1,5 @@
 function fizzbuzz(num) {
-    /*for(var i=0;i<=num;i++){
+  /*for(var i=0;i<=num;i++){
     
       if(i%3===0 && i%5===0){console.log("FizzBuzz");}
       else if(i%3===0){console.log("Fizz");}
@@ -7,17 +7,21 @@ function fizzbuzz(num) {
       else{console.log(i);}
     
     }*/
-    
-    if(num%3===0 && num%5===0){console.log("FizzBuzz");}
-      else if(num%3===0){console.log("Fizz");}
-      else if(num%5===0){console.log("Buzz");}
-      else{console.log(num);}
-    
-    }
-    fizzbuzz(40);
-    
+
+  if (num % 3 === 0 && num % 5 === 0) {
+    console.log("FizzBuzz");
+  } else if (num % 3 === 0) {
+    console.log("Fizz");
+  } else if (num % 5 === 0) {
+    console.log("Buzz");
+  } else {
+    console.log(num);
+  }
+}
+fizzbuzz(40);
+
 //     function super_fizzbuzz(arr) {
-        
+
 //         for(i=0;i<arr.length;i++){
 //         if(arr[i]%3===0 && arr[i]%5===0){
 //             arr[i]="FizzBuzz";}
@@ -26,7 +30,7 @@ function fizzbuzz(num) {
 //           else if(arr[i]%5===0){arr[i]="Buzz";}
 //           else{ arr;}
 //         }
-        
+
 //         arr;
 //         }
 
@@ -50,7 +54,6 @@ function fizzbuzz(num) {
 
 // console.log(test);
 
-
 // var temp=`hello, my name is poppy`;
 // function intro(a,b){return `my name is ${a} and my age is ${b}`};
 
@@ -65,7 +68,6 @@ function fizzbuzz(num) {
 
 // const lottoSum= lotto.reduce((total,x) =>total+x,0);
 // console.log(lottoSum);
-
 
 // var poppyDuplo=[5,9,12,30,90];
 // const sumPoppyDuplo=poppyDuplo.reduce((total,x)=> total+x,0);
@@ -95,14 +97,10 @@ function fizzbuzz(num) {
 // var fullLine=removeCute.join(" ");
 // console.log(fullLine);
 
-
 // var testString="twinkle twinkle little star";
 // var testArray=testString.split(" ")
 // .map(x => x.charAt(0).toUpperCase()+x.slice(1))
-// .join(" "); 
-
-
-
+// .join(" ");
 
 //  arr=[{door: 1, hiding: "Shaggy"}, {door: 2, hiding: "Scooby"}, {door: 3, hiding: "Velma"}]
 // arr1=[{door: 1, hiding: ""}, {door: 2, hiding: "Scooby"}, {door: 3, hiding: "Velma"}]
@@ -115,14 +113,13 @@ function fizzbuzz(num) {
 
 // whereAreYou(arr);
 
-
 // MINESWEEPER
 // <!-- redo fizzbuzz -->
 //  first create a function (number) that:
-//     If the number is a multiple of 3 replace it with  fizz, 
-//     If the number is a multiple of 5, replace it with buzz 
-//     If the number is a multiple of 14, replace it with fizzbuzz 
-//     Else, return the number  
+//     If the number is a multiple of 3 replace it with  fizz,
+//     If the number is a multiple of 5, replace it with buzz
+//     If the number is a multiple of 14, replace it with fizzbuzz
+//     Else, return the number
 // function fizzbuzz (x){if (x%3===0 && x%5===0){return("fizzbuzz")}
 //                 else if(x%3===0){return ("fizz")}
 //                 else if(x%5===0){return("buzz")}
@@ -133,8 +130,6 @@ function fizzbuzz(num) {
 // fizzbuzz(20);
 // fizzbuzz(24);
 // fizzbuzz(45);
-
-
 
 //-- create a function that turn array=[3,9,7] into newArray=[fizz,9,7]
 
@@ -149,8 +144,6 @@ function fizzbuzz(num) {
 // var arr2=[18,0,4,6,20,90];
 // var arr3=[200,40,59,24,65];
 
-
-
 // function superfizzbuzz (arr){
 // return arr.map(num => fizzbuzz(num))}
 
@@ -161,14 +154,12 @@ function fizzbuzz(num) {
 // arr3.ticket="Poppy";
 // console.log(arr3);
 
-
 // person=[{name:"Anna", Age:29, Kid: "Maggie"},
 //           {name:"JoJo", Age:35, Kid: "Poppy"},
 //           {name:"Ngoc", Age:36, Kid: "Bin"}]
 
 // person[0].isCool=true;
 
-          
 //           console.log(person);
 
 // let repayment = (interest, amount)=>{return interest*amount/100/26};
@@ -188,54 +179,83 @@ function fizzbuzz(num) {
 // //sum all numbers in array
 
 // let sum= x => {
-//     var sum =0; 
+//     var sum =0;
 //     for (i=0;i<x.length;i++){sum=sum+x[i]}
 // return sum;}
 
 // console.log(`Total value of the numbers in the array is ${sum(array)}`);
 
+let fairyTales = document.querySelector("body > h1");
+fairyTales.style = "color: pink";
+fairyTales.style.fontSize = "50px";
+fairyTales.style.fontFamily = "san-serif";
+fairyTales.style.textAlign = "center";
+fairyTales.setAttribute("class", "fairy dust pink title");
 
- let fairyTales=document.querySelector('body > h1');
- fairyTales.style='color: pink';
- fairyTales.style.fontSize='50px';
- fairyTales.style.fontFamily='san-serif';
- fairyTales.style.textAlign='center';
- fairyTales.setAttribute('class','fairy dust pink title');
+fairyTales.classList.add("cute");
+fairyTales.classList.remove("dust");
+fairyTales.setAttribute("class", "");
 
- 
-fairyTales.classList.add('cute');
-fairyTales.classList.remove('dust');
-fairyTales.setAttribute('class','')
-
-var epsum=document.querySelectorAll('p')
+var epsum = document.querySelectorAll("p");
 console.log(epsum);
 
-epsum.forEach(x =>{
-    
-var content=x.textContent;
-if(content.includes('error')){x.classList.add('error')}
-else if(content.includes('success')){x.classList.add('success')}
-else return x;
+epsum.forEach((x) => {
+  var content = x.textContent;
+  if (content.includes("error")) {
+    x.classList.add("error");
+  } else if (content.includes("success")) {
+    x.classList.add("success");
+  } else return x;
+});
 
-})
+var button = document.querySelector("body > button");
+button.innerHTML = "Add more book";
 
+button.addEventListener("click", () =>
+  // add new book when the button is clicked
+  {
+    const newBook = document.createElement("p");
+    newBook.textContent = "Something new to read";
+    const divToAddTo = document.querySelector("div.container");
+    divToAddTo.prepend(newBook);
+  }
+);
 
-var button=document.querySelector('body > button');
-button.innerHTML='Add more book';
+var book = document.querySelectorAll("p");
+book.forEach((x) =>
+  x.addEventListener("click", (e) => {
+    e.target.remove();
+  })
+);
 
-button.addEventListener('click',() =>
-// add new book when the button is clicked
-{const newBook=document.createElement('p');
-newBook.textContent="Something new to read";
-const divToAddTo=document.querySelector('div.container');
-divToAddTo.prepend(newBook);
+const scores = [1, 2, 3, 9, 8];
+
+function sum1(scores) {
+  let sum = 0;
+  for (i = 0; i < scores.length; i++) {
+    sum = sum + scores[i];
+    console.log(sum);
+  }
+  return sum;
 }
-)
 
-var book=document.querySelectorAll('p');
-book.forEach(x => x.addEventListener(
-    'click', 
-    e=>{e.target.remove()})
+const scores2 = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
 
+function sum2(scores) {
+  let totalScore = 0;
+  for (i = 0; i < scores.length; i++) {
+    let sumThisFrame = 0;
+    for (j = 0; j < scores[i].length; j++) {
+      sumThisFrame += scores[i][j];
+    }
+    totalScore += sumThisFrame;
+    console.log(totalScore);
+  }
+  return totalScore;
+}
 
-)
+console.log(sum2(scores2));
